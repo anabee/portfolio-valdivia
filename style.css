@@ -1,0 +1,25 @@
+ 
+/* Body */
+
+body {
+    background-color: red;
+}
+
+/* Navbar Styling */
+
+.header-name {
+    background-color: #4aaaa5;
+}
+
+.container {
+    background-color: aquamarine;
+}
+
+.profilepic {
+    height: 200px;
+    background: transparent no-repeat center;
+    background-size: cover;
+    float: left;
+    margin: 10px;
+    padding-left: 10px;
+}
