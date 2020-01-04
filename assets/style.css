@@ -2,7 +2,13 @@
 /* Body */
 
 body {
+    background-image: url("./palm-leaf.png");
+    height: 100%;
     background-color: lightpink;
+}
+
+.spacing {
+    margin: 15px;
 }
 
 /* Navbar Styling */
@@ -14,7 +20,7 @@ body {
 /* Container that will hold all grid styles input into the pages */
 
 .container {
-    background-color: aquamarine;
+    background-color: #ffffff;
 }
 
 /* About page styling  */
