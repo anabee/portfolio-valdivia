@@ -13,8 +13,12 @@ body {
 
 /* Navbar Styling */
 
-.header-name {
+.header-right {
     background-color: #4aaaa5;
+}
+
+.header-left {
+    background-color: #ffffff;
 }
 
 /* Container that will hold all grid styles input into the pages */
@@ -39,5 +43,10 @@ body {
 .portfolio-image {
     background: transparent no-repeat center;
     background-size: cover;
-    
+}
+
+/* Contact Page */
+
+.row_spacing {
+    margin: 5px;
 }
