@@ -2,7 +2,7 @@
 /* Body */
 
 body {
-    background-color: red;
+    background-color: lightpink;
 }
 
 /* Navbar Styling */
@@ -11,9 +11,13 @@ body {
     background-color: #4aaaa5;
 }
 
+/* Container that will hold all grid styles input into the pages */
+
 .container {
     background-color: aquamarine;
 }
+
+/* About page styling  */
 
 .profilepic {
     height: 200px;
@@ -22,4 +26,12 @@ body {
     float: left;
     margin: 10px;
     padding-left: 10px;
+}
+
+/* Portfolio */
+
+.portfolio-image {
+    background: transparent no-repeat center;
+    background-size: cover;
+    
 }
