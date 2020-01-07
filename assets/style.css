@@ -4,22 +4,56 @@
 body {
     background-image: url("./palm-leaf.png");
     height: 100%;
-    background-color: lightpink;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
 }
 
 .spacing {
     margin: 15px;
 }
 
+h2 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color: #4aaaa5;
+    border-style: dashed;
+    border-color: #ccc;
+}
+
 /* Navbar Styling */
 
+/* .container-fluid {
+    border-style: dashed;
+    border-color: #666666;
+} */
+
 .header-right {
-    background-color: #4aaaa5;
+    background-color: #ffffff;
 }
 
 .header-left {
     background-color: #ffffff;
 }
+
+.headernamesection {
+    background-color: #4aaaa5;
+    height: 100%;
+    margin: 1px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color: #ffffff;
+}
+
+.headerlinks {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+a {
+    color: #666666;
+}
+
+a:hover {
+    color: #ccc;
+}
+
 
 /* Container that will hold all grid styles input into the pages */
 
@@ -27,7 +61,7 @@ body {
     background-color: #ffffff;
 }
 
-/* About page styling  */
+/* About ME Styling*/
 
 .profilepic {
     height: 200px;
@@ -43,10 +77,50 @@ body {
 .portfolio-image {
     background: transparent no-repeat center;
     background-size: cover;
+    width: 200px;
+    height: 200px;
+}
+
+.box {
+    background-color: #4aaaa5;
+    height: 50px;
+    position: relative;
+    bottom: 40px;
+    padding: 10px;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 20px;
+    width: 200px;
 }
 
 /* Contact Page */
 
+label {
+    width: 100%;
+}
+
 .row_spacing {
     margin: 5px;
+}
+
+.buttonstyle {
+    background-color: #4aaaa5;
+}
+
+/* Footer */
+
+footer {
+    background-color: #666666;
+    border-top: #4aaaa5;
+    border-width: 5px 0 0 0;
+    border-style: solid;
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: -50px;
+}
+
+.footername {
+    color: #ffffff;
 }
