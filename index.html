@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-100">
 
 <head>
     <meta charset="UTF-8">
@@ -16,7 +16,9 @@
 
 </head>
 
-<body>
+<body class="d-flex flex-column h-100">
+
+<main role="main" class="flex-shrink-0">
 
 <div class="container-fluid">
 
@@ -32,9 +34,11 @@
                 <li class="nav-item">
                     <a class="nav-link active" href="index.html">About</a>
                 </li>
+                <li class="headerspace">|</li>
                 <li class="nav-item">
                     <a class="nav-link" href="portfolio.html">Portfolio</a>
                 </li>
+                <li class="headerspace">|</li>
                 <li class="nav-item">
                     <a class="nav-link" href="contact.html">Contact</a>
                 </li>
@@ -43,7 +47,7 @@
         </div>
     </div>
 
-<div class="spacing"></div>
+<div class="spacingtop"></div>
 
 <div class="container">
 
@@ -53,12 +57,16 @@
             <h2>About Me</h2>
         </div>
 
+        <div class="division"></div>
+
         <div class="row">
-        <div class="col-md-2">
+
+        <div class="col-md-12">
+        <div class="col-md-3">
             <img class="profilepic" src="./images/profile-pic-leaf.png" alt="A picture of Ana Valdivia">
         </div>
 
-        <div class="col-md-10">
+        <div>
             <p>Welcome to my page! My name is Ana Valdivia and I am on a journey to become a web developer. Growing up I always wanted to be an Architect, I just loved the idea of being able to design something and then seei it built. When I graduated High School I began the route which I thought would allow me to fulfill my dream. </p>
             <br>
             <p>As with all dreams, things did not go as planned. I attended El Camino College, where I engulfed myself in Math and Physics. I had not realized how much I enjoyed Mathematics until that point in my life. I transferred from El Camino College to UCLA, in 2015, as a Mathematics major. Being accepted to UCLA was a dream that I shared with many of my peers. During my education at UCLA, I experienced a personal life altering event. Due to this unfortunate event I was unable to complete my Mathematics degree and instead I had to settle for a degree in Geography; since this was the only thing I could complete before my financial aid ran out. </p>
@@ -66,10 +74,16 @@
             <p>When I graduated I was very frustrated with myself, I felt like a failure. I spent a couple of years working every single day. I knew I wanted to change something in my life but I did not know where to start. In my current occupation, I received the opportunity to work directly with a web developer in creating a customized tool for my department. Through that experience I became interested in coding. My co-worker became a close friend and encouraged me to try web developing. Before enrolling in the UCLA Extension Bootcamp, I tried teaching myself the coding basics, but struggled without the support the program offers. So here I am, ready to learn as much as I can in order to change my life! </p>
         </div>
         </div>
+        </div>
     </div>
 </div>
 
-<footer class="footer mt-auto py-3">
+<div class="spacing"></div>
+
+</main>
+
+
+<footer class="footer mt-auto py-3 footerstyle fixed-bottom">
     <span class="footername">&copy; Ana Valdivia</span>
 </footer>
 

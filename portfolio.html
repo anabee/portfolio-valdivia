@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-100">
 
 <head>
     <meta charset="UTF-8">
@@ -16,25 +16,27 @@
 
 </head>
 
-<body>
+<body class="d-flex flex-column h-100">
+
+<main role="main" class="flex-shrink-0">
 
 <div class="container-fluid">
 
      <!-- Making the nav bar into a row so that the elements stack on top -->
     <div class="row">
-        <div class="col-md-3 header-right">
-            <div>
+        <div class="col-sm-3 header-right">
                 <h2 class="headernamesection">Ana Valdivia</h2>
-            </div>
         </div>
-        <div class="col-md-9 header-left">
+        <div class="col-sm-9 header-left">
             <ul class="nav justify-content-end headerlinks">
                 <li class="nav-item">
                     <a class="nav-link active" href="index.html">About</a>
                 </li>
+                <li class="headerspace">|</li>
                 <li class="nav-item">
                     <a class="nav-link" href="portfolio.html">Portfolio</a>
                 </li>
+                <li class="headerspace">|</li>
                 <li class="nav-item">
                     <a class="nav-link" href="contact.html">Contact</a>
                 </li>
@@ -43,11 +45,13 @@
         </div>
     </div>
 
-<div class="spacing"></div>
+<div class="spacingtop"></div>
 
 <div class="container">
         
     <h2>Portfolio</h2>
+
+    <div class="division"></div>
         
     <div class="row">
         
@@ -94,7 +98,11 @@
             </div>
 </div>  
 
-<footer class="footer mt-auto py-3">
+<div class="spacing"></div>
+
+</main>
+
+<footer class="footer mt-auto py-3 footerstyle fixed-bottom">
     <span class="footername">&copy; Ana Valdivia</span>
 </footer>
 

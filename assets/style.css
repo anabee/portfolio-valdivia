@@ -1,6 +1,10 @@
  
 /* Body */
 
+html {
+    height: 100%;
+}
+
 body {
     background-image: url("./palm-leaf.png");
     height: 100%;
@@ -9,6 +13,10 @@ body {
 }
 
 .spacing {
+    margin: 100px;
+}
+
+.spacingtop {
     margin: 15px;
 }
 
@@ -17,6 +25,15 @@ h2 {
     color: #4aaaa5;
     border-style: dashed;
     border-color: #ccc;
+}
+
+.division {
+    height: 10px;
+    border-style: solid;
+    border-width: 2px 0 0 0;
+    border-color: #ccc;
+    width: 98%;
+    margin: 0 auto;
 }
 
 /* Navbar Styling */
@@ -40,6 +57,7 @@ h2 {
     margin: 1px;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     color: #ffffff;
+    text-align: center;
 }
 
 .headerlinks {
@@ -47,12 +65,19 @@ h2 {
 }
 
 a {
-    color: #666666;
+    color: #777777;
 }
 
 a:hover {
     color: #ccc;
 }
+
+.headerspace {
+    color: #dddddd;
+    margin-top: 6px;
+}
+
+
 
 
 /* Container that will hold all grid styles input into the pages */
@@ -64,12 +89,13 @@ a:hover {
 /* About ME Styling*/
 
 .profilepic {
-    height: 200px;
+    width: 100%;
     background: transparent no-repeat center;
     background-size: cover;
     float: left;
     margin: 10px;
     padding-left: 10px;
+    float: left;
 }
 
 /* Portfolio */
@@ -77,8 +103,8 @@ a:hover {
 .portfolio-image {
     background: transparent no-repeat center;
     background-size: cover;
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
 }
 
 .box {
@@ -91,8 +117,9 @@ a:hover {
     color: #ffffff;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     font-size: 20px;
-    width: 200px;
+    width: 300px;
 }
+
 
 /* Contact Page */
 
@@ -110,12 +137,12 @@ label {
 
 /* Footer */
 
-footer {
+.footerstyle {
     background-color: #666666;
     border-top: #4aaaa5;
     border-width: 5px 0 0 0;
     border-style: solid;
-    padding: 20px;
+    padding: 20px 0 -16px 0;
     text-align: center;
     color: #ffffff;
     margin-top: -50px;
