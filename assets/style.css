@@ -47,6 +47,13 @@ h2 {
     background-color: #ffffff;
 }
 
+/* Extends the background color of the header when shrinking the page */
+@media (max-width:640px){
+    .header-right{
+        background-color: #4aaaa5;
+    }
+}
+
 .header-left {
     background-color: #ffffff;
 }
