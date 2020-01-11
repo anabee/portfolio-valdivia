@@ -38,17 +38,12 @@ h2 {
 
 /* Navbar Styling */
 
-/* .container-fluid {
-    border-style: dashed;
-    border-color: #666666;
-} */
-
 .header-right {
     background-color: #ffffff;
 }
 
 /* Extends the background color of the header when shrinking the page */
-@media (max-width:640px){
+@media (max-width:578px){
     .header-right{
         background-color: #4aaaa5;
     }
@@ -87,11 +82,14 @@ a:hover {
 
 
 
+
 /* Container that will hold all grid styles input into the pages */
 
 .container {
     background-color: #ffffff;
+    padding-bottom: 15px;
 }
+
 
 /* About ME Styling*/
 
